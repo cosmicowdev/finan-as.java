@@ -11,9 +11,9 @@ rm -f $ZIPFILE
 echo "Criando estrutura de pastas..."
 mkdir -p $PROJECT/{finance/{api,application,event,domain,infrastructure/persistence,infrastructure/mapper},task/{api,dto,application,event,domain,infrastructure/persistence,infrastructure/mapper},analytics/{api,application/listener,domain,infrastructure/persistence,infrastructure/redis},auth/{api,application,domain},shared/{base,event,util}}
 
-# -----------------------------
+
 # Finance
-# -----------------------------
+
 cat > $PROJECT/finance/api/FinanceController.java << EOF
 package finance.api;
 
@@ -557,9 +557,8 @@ public class TaskMapper {
 }
 EOF
 
-# -----------------------------
 # Analytics
-# -----------------------------
+
 cat > $PROJECT/analytics/api/AnalyticsController.java << EOF
 package analytics.api;
 
