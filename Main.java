@@ -1,5 +1,5 @@
 #!/bin/bash
-# Gera o projeto NexusOne completo com todo código preenchido e zipa em 1 comando
+# Gera o projeto completo com todo código preenchido e zipa em 1 comando
 
 PROJECT="nexusone"
 ZIPFILE="nexusone_full_project.zip"
